@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "~@angular/material/theming";
+
+@include mat-core();
+
 * {
   margin: 0;
   padding: 0;
@@ -39,3 +43,5 @@ body {
 a {
   color: var(--blue);
 }
+
+@include angular-material-theme($bf-theme);
