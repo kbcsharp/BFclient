@@ -1,11 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
-@import "~@angular/material/theming";
-
-@include mat-core();
-
-@import "./bf-theme.scss";
-
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
 * {
   margin: 0;
   padding: 0;
@@ -44,8 +38,4 @@ body {
 
 a {
   color: var(--blue);
-}
-
-.my-theme {
-  @include angular-material-theme($bf-theme);
 }
