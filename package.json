@@ -1,5 +1,5 @@
 {
-  "name": "bfclient",
+  "name": "bootcampfootlocker-client",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build",
-    "start": "serve -s dist/bfclient"
+    "start": "serve -s dist/bootcampfootlocker-client"
   },
   "private": true,
   "dependencies": {
